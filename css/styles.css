@@ -1,0 +1,201 @@
+body{
+  background-color:#cde8f6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+  margin:50px auto 0 auto;
+  color:#66BFBF;
+}
+h2{
+  font-family: 'Slabo 35px', serif;
+  font-size: 2.5rem;
+  color:#66BFBF;
+  font-weight:normal;
+}
+h3{
+  font-family: 'Slabo 25px', serif;
+  font-size: 1.5rem;
+  color: #11999E;
+  font-weight: normal;
+}
+p{
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #11999E;
+  font-weight: normal;
+  }
+
+    hr{
+      padding: 20px;
+      border-style:none;
+      border-top-style: dotted;
+      border-color: grey;
+      border-width: 7px;
+      height: 0px;
+      width: 20%;
+    }
+
+    .footer-link{
+      color: blue;
+      text-decoration: none;
+      margin: 30px;
+      }
+      a{
+        margin-top: 30px;
+
+      }
+    a:hover{
+      color:red;
+    }
+
+.topp-container{
+  background-color: #cde8f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  border-radius: 50%;
+  background-color: #cde8f6;
+  position: relative;
+  padding: 20px;
+}
+
+
+.Emoji{
+  border-radius: 50%;
+  position: absolute;
+  left:100px;
+  top:50px;
+}
+
+
+.top-cloud{
+position: fixed;
+right: 100px;
+top: 50px;
+}
+
+.bottom-container{
+  background-color:#cde8f6;
+  position: relative;
+  padding: 20px;
+}
+
+
+.skill-row{
+  text-align: center;
+  margin-bottom: 100px;
+  margin-right: 20px;
+
+}
+.my-skill1{
+  border-radius: 50%;
+  width: 30%;
+  margin-right: 30px;
+}
+
+.my-skill2{
+  border-radius: 50%;
+    width: 30%
+}
+.my-skill3{
+  border-radius: 50%;
+  width: 30%
+}
+
+/*---------------  about me page------------*/
+
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -o-linear-gradient(top, #11cdd4, #1199e);
+  background-image: linear-gradient(to bottom, #11cdd4, #1199e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+.aboutme-btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.aboutme-btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.aboutme-page{
+  background-color: #cde8f6;
+  position: absolute;
+  padding-top: : 100px;
+  margin:50px 50px 50px 50px;
+
+}
+.aboutme-Emoji{
+  border-radius: 50%;
+position:absolute;
+left:100px;
+top:20px;
+}
+.aboutme-sun{
+position:absolute;
+right: 100px;
+top: 50px;
+}
+
+.footer{
+
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 0;
+
+}
+
+.copyright{
+  position:relative;
+  font-size:15px;
+  margin-top: 50px;
+}
